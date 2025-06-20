@@ -7,7 +7,7 @@ library(fontawesome)
 library(shinyBS)
 
 # Read in dataset
-data <- read.csv("PharmMet_DB_061325.csv")
+data <- read.csv("PharmMet_DB_v1.0.csv")
 
 normalize_adduct <- function(x) {
   x <- gsub("'", "", x)             
